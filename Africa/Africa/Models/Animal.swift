@@ -1,0 +1,23 @@
+//
+//  Animal.swift
+//  Africa
+//
+//  Created by Aybars Acar on 5/12/21.
+//
+
+import SwiftUI
+
+
+struct Animal : Codable, Identifiable {
+  
+  let id: String
+  let name: String
+  let headline: String
+  let description: String
+  let link: String
+  let image: String
+  let gallery: [String]
+  let fact: [String]
+  
+}
+
